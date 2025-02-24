@@ -26,11 +26,11 @@ The focus is on understanding the theoretical foundations and principles behind 
 ## How to Run the Simulations
 
 1. **Requirements:**  
-   MATLAB or GNU Octave.
+   MATLAB 
 2. **Instructions:**  
    - Open the simulation scripts in MATLAB.
    - Run the main script to generate performance plots and analyze the achievable rate region.
 
 ## References
-V. Stankovic, A. D. Liveris, Zixiang Xiong and C. N. Georghiades, "Design of Slepian-Wolf codes by channel code partitioning," Data Compression Conference, 2004. Proceedings. DCC 2004, Snowbird, UT, USA, 2004, pp. 302-311, doi: 10.1109/DCC.2004.1281475. keywords: {Decoding;Turbo codes;Channel capacity;Time sharing computer systems;Power system modeling;Costs;Entropy;Data compression;Performance loss},
+V. Stankovic, A. D. Liveris, Zixiang Xiong and C. N. Georghiades, "Design of Slepian-Wolf codes by channel code partitioning," Data Compression Conference, 2004. Proceedings. DCC 2004, Snowbird, UT, USA, 2004, pp. 302-311, doi: 10.1109/DCC.2004.1281475.
 
