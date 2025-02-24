@@ -32,5 +32,5 @@ The focus is on understanding the theoretical foundations and principles behind 
    - Run the main script to generate performance plots and analyze the achievable rate region.
 
 ## References
-V. Stankovic, A. D. Liveris, Zixiang Xiong and C. N. Georghiades, "Design of Slepian-Wolf codes by channel code partitioning," Data Compression Conference, 2004. Proceedings. DCC 2004, Snowbird, UT, USA, 2004, pp. 302-311, doi: 10.1109/DCC.2004.1281475.
+[V. Stankovic, A. D. Liveris, Zixiang Xiong and C. N. Georghiades, "Design of Slepian-Wolf codes by channel code partitioning," Data Compression Conference, 2004. Proceedings. DCC 2004, Snowbird, UT, USA, 2004, pp. 302-311, doi: 10.1109/DCC.2004.1281475.](https://github.com/Croft233/Slepian-Wolf-Code/blob/main/design-of-slepianwolf-codes-by-channel-code-partitioning.pdf)
 
