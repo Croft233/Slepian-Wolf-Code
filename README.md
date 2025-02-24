@@ -1,24 +1,36 @@
 # Slepian-Wolf Code
 
-This repository contains the reproduct code for Slepian-Wolf Code.
+This repository contains a research study on Slepian-Wolf coding for correlated sources. 
+The focus is on understanding the theoretical foundations and principles behind Slepian-Wolf codes, which enable separate encoding of correlated sources with joint decoding to approach the limits of data compression.
 
 ## Overview
 
-**Objective:**  
-- To develop a clear understanding of Slepian-Wolf coding principles and LDPC encoding/decoding techniques.
-- To implement an LDPC-based Slepian-Wolf coding scheme, simulate its performance, and analyze how closely it can approach the Slepian-Wolf bound.
-
-**Key Topics:**
 - **Slepian-Wolf Coding:**  
-  A method for separately encoding correlated sources with joint decoding, enabling efficient compression without inter-encoder communication.
-- **LDPC Codes:**  
-  Advanced error-correcting codes characterized by a sparse parity-check matrix. The research covers both the encoding (using approximate lower triangular forms) and decoding (via the sum-product algorithm) aspects.
-- **Integration of Techniques:**  
-  The study demonstrates how a single systematic channel code can be partitioned and combined with LDPC methods to meet the Slepian-Wolf theoretical limits.
+  A coding scheme that allows the efficient compression of correlated sources by separately encoding them and jointly decoding without the need for communication between encoders.
+  This study covers the Slepian-Wolf theorem and its achievable rate region :contentReference[oaicite:0]{index=0}.
 
-## Project Structure
+- **Objectives:**  
+  - To explore the theoretical limits of Slepian-Wolf coding.
+  - To understand the design and performance of Slepian-Wolf codes in scenarios with correlated data sources.
 
-- `simulation/`  
-Directory for MATLAB scripts and simulation code used in the study.
-- `README.md`  
-  This file.
+- **Applications:**  
+  Potential use cases include sensor networks, multimedia communication, and distributed storage systems.
+
+## Repository Contents
+
+- **Theory Documentation:**  
+  Detailed explanation of the Slepian-Wolf theorem and the achievable rate region.
+- **Simulation Scripts:**  
+  MATLAB scripts (if available) that simulate Slepian-Wolf coding without LDPC integration.
+
+## How to Run the Simulations
+
+1. **Requirements:**  
+   MATLAB or GNU Octave.
+2. **Instructions:**  
+   - Open the simulation scripts in MATLAB.
+   - Run the main script to generate performance plots and analyze the achievable rate region.
+
+## References
+V. Stankovic, A. D. Liveris, Zixiang Xiong and C. N. Georghiades, "Design of Slepian-Wolf codes by channel code partitioning," Data Compression Conference, 2004. Proceedings. DCC 2004, Snowbird, UT, USA, 2004, pp. 302-311, doi: 10.1109/DCC.2004.1281475. keywords: {Decoding;Turbo codes;Channel capacity;Time sharing computer systems;Power system modeling;Costs;Entropy;Data compression;Performance loss},
+
